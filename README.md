@@ -1,11 +1,23 @@
-Lay data cua user them vao file data.txt
+# Share tool auto tap BabyDoge PAWS uses nodejs
 
-#Install package:
+## 👉 Link BabyDoge PAWS: [Click](https://t.me/BabyDogePAWS_Bot/game?startapp=r_673750261)
 
-npm install or yarn install
+✔️ Auto tap
+✔️ Auto claim task
+✔️ Auto daily
+✔️ Auto buy card
+✔️ Auto update card
 
-#Run script
+## Guide:
 
-node moonbix.js
+Requires nodejs installed
 
-link playgame: https://t.me/Binance_Moonbix_bot/start?startapp=ref_673750261&startApp=ref_673750261
+Install the dependencies and devDependencies and start the server.
+
+```sh
+npm install
+npm run start or node babydoge.js
+```
+
+## Channel telegram
+[Share Tool](https://t.me/cayardrop)
