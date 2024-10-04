@@ -63,7 +63,7 @@ class BabyDoge {
                     await this.upgradeMyCards(access_token, maxUpgradeCost);
                 }
 
-                await this.countdown(5000);
+                await this.countdown(10);
             }
 
             await this.waitWithCountdown(60);
