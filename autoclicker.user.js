@@ -1,3 +1,16 @@
+// ==UserScript==
+// @name         Babydoges Autoclicker
+// @version      1.0
+// @author       DatPT
+// @match        *://babydogeclikerbot.com/*
+// @icon         https://babydogeclikerbot.com/1492302162/img/styles/space/other/babydoge.png
+// @run-at       document-start
+// @grant        none
+// @downloadURL  https://github.com/datpt1603/air-babydoge/raw/main/autoclicker.user.js
+// @updateURL    https://github.com/datpt1603/air-babydoge/raw/main/autoclicker.user.js
+// @homepage     https://github.com/datpt1603/air-babydoge
+// ==/UserScript==
+
 console.error = console.warn = console.info = console.debug = () => {};
 
 const styles = {
