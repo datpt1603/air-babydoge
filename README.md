@@ -1,23 +1,10 @@
-# Share tool auto tap BabyDoge PAWS uses nodejs
+> [!NOTE]
+> - Contacts: [Telegram](t.me/datpt1603)
+> - Channel: [Telegram Channel](t.me/cayardrop)
 
-## 👉 Link BabyDoge PAWS: [Click](https://t.me/BabyDogePAWS_Bot/game?startapp=r_673750261)
-
-✔️ Auto tap
-✔️ Auto claim task
-✔️ Auto daily
-✔️ Auto buy card
-✔️ Auto update card
-
-## Guide:
-
-Requires nodejs installed
-
-Install the dependencies and devDependencies and start the server.
-
-```sh
-npm install
-npm run start or node babydoge.js
-```
-
-## Channel telegram
-[Share Tool](https://t.me/cayardrop)
+## How to run  
+- Install extension in your browser [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
+- To install **autoclicker** install [this script](https://github.com/datpt1603/air-babydoge/raw/main/autoclicker.user.js)
+- Open [Bot TapSwap](https://t.me/BabyDogePAWS_Bot/game?startapp=r_673750261) and run the game
+  
+- ![Result](result.png)
