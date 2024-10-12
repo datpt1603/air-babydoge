@@ -1,17 +1,12 @@
-// ==UserScript==
-// @name         Babydoges Autoclicker
-// @version      1.0
-// @author       DatPT
-// @match        *://babydogeclikerbot.com/*
-// @icon         https://babydogeclikerbot.com/1492302162/img/styles/space/other/babydoge.png
-// @run-at       document-start
-// @grant        none
-// @downloadURL  https://github.com/datpt1603/air-babydoge/raw/main/autoclicker.user.js
-// @updateURL    https://github.com/datpt1603/air-babydoge/raw/main/autoclicker.user.js
-// @homepage     https://github.com/datpt1603/air-babydoge
-// ==/UserScript==
-
 console.error = console.warn = console.info = console.debug = () => {};
+
+const styles = {
+    success: 'background: #28a745; color: #ffffff; font-weight: bold; padding: 4px 8px; border-radius: 4px;',
+    starting: 'background: #8640ff; color: #ffffff; font-weight: bold; padding: 4px 8px; border-radius: 4px;',
+    error: 'background: #dc3545; color: #ffffff; font-weight: bold; padding: 4px 8px; border-radius: 4px;',
+    info: 'background: #007bff; color: #ffffff; font-weight: bold; padding: 4px 8px; border-radius: 4px;'
+};
+const logPrefix = '%c[BabydogesBOT] ';
 
 function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -137,7 +132,7 @@ function runAutoClicker() {
         }
     } catch (error) {
         console.log(`${logPrefix}Error in autoClicker: ${error.message}`, styles.error);
-        setTimeout(runAutoClicker, 1000); // Пауза на случай ошибки, чтобы продолжить работу
+        setTimeout(runAutoClicker, 1000);
     }
 }
 
